@@ -1,0 +1,35 @@
+{
+  "name": "child-care-mock-api",
+  "version": "1.0.0",
+  "description": "A mock server for the child care app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brckalo/child-care-mock-api.git"
+  },
+  "keywords": [
+    "child",
+    "care",
+    "parent",
+    "babysitter",
+    "api"
+  ],
+  "author": "Milan Brčkalo",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/brckalo/child-care-mock-api/issues"
+  },
+  "homepage": "https://github.com/brckalo/child-care-mock-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
